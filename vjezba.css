@@ -1,0 +1,132 @@
+body{
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li,a{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    width: 100%;
+    height: 104px;
+    background-color: white;
+}
+.flex-container img{
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 62px;
+    top: 23px;
+
+}
+.flex-container p{
+    position: absolute;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+    left:99px;
+    top: 46px;
+}
+.logo{
+    cursor: pointer;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li  {
+    display: inline-block;
+    position: relative;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition: all 0.5s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: gray;
+}
+.footer{
+    position: fixed;
+    width: calc(100% - 450px);
+    height: 104px;
+    bottom: 0;
+    background-color: white;
+    margin-left: 210px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+.footer-content{
+    display: flex ;
+    justify-content: space-between;
+    padding: 15px 10%;
+    font-size: 14px;
+    text-align: center;
+    font-family: Poppins;
+}
+.footer-content p:nth-child(2){
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: bold;
+}
+.content p:nth-child(1){
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    color: white;
+    padding-top: 61px;
+}
+.content p:nth-child(2){
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    color: white;
+}
+.btn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    height: 62px;
+    width: 200px;
+    border: 3px solid #FFFFFF;
+    border-radius: 50px;
+    top: 45px;
+    font-size: 18px;
+    font-family: Poppins;
+    background-color: transparent;
+    color:white;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+
+}
+.btn:hover{
+    background-color: gray;
+    opacity: 0.84;
+}
